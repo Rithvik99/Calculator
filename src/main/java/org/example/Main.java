@@ -10,7 +10,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         logger.info("Execution Started");
-//        Hello prends hii
 
         while (true) {
             System.out.println("Choose an operation: ");
@@ -60,18 +59,22 @@ public class Main {
     }
 
     public static double add(double a, double b) {
+        logger.info("Performed Add");
         return a + b;
     }
 
     public static double subtract(double a, double b) {
+        logger.info("Performed Subtract");
         return a - b;
     }
 
     public static double multiply(double a, double b) {
+        logger.info("Performed Multiply");
         return a * b;
     }
 
     public static double divide(double a, double b) {
+        logger.info("Performed Divison");
         if (b == 0) {
             System.out.println("Error: Division by zero is not allowed");
             return Double.NaN;
