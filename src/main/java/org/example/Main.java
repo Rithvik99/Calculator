@@ -10,6 +10,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         logger.info("Execution Started");
+        // Commented
 
         while (true) {
             System.out.println("Choose an operation: ");
