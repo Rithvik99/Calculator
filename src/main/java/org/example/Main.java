@@ -11,7 +11,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         logger.info("Execution Started");
         // Commented
-
+        
         while (true) {
             System.out.println("Choose an operation: ");
             System.out.println("1. Addition (+)");
